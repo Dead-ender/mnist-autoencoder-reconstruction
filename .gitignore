@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# Jupyter and test caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Datasets and generated artifacts
+data/
+datasets/
+artifacts/
+checkpoints/
+outputs/
+results/
+*.h5
+*.hdf5
+*.keras
+*.weights.h5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.edf
+*.mat
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
